@@ -1,0 +1,15 @@
+.container {
+  max-width: 900px;
+}
+
+button svg {
+  pointer-events: none;
+}
+
+.background{
+  background-color: rgb(250, 249, 248);
+}
+
+.h2{
+  font-family:'Times New Roman', Times, serif
+}
