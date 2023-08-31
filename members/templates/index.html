@@ -46,8 +46,13 @@
         <ul>
 
           {% for x in mymembers %}
-            <div class=" ">
-            <li> {{ x.tasks }} {{ x.date }} <a href="details/{{ x.id }}"><input style="margin-left: 20px;" class="btn text-right btn-primary " type="button" value="click to view details"></a></li>
+
+            <div class="">
+
+            <li> 
+              {{ x.tasks }} {{ x.date }} <a href="details/{{ x.id }}"><input style="margin-left: 20px;" class="btn text-right btn-primary " type="button" value="click to view details"></a></li>
+
+
               <br>
           </div>
             {% endfor %}
